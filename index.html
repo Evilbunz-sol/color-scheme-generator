@@ -1,0 +1,29 @@
+<html lang="en">
+	<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Color Picker</title>
+    </head>
+    
+    <body>                
+        <section class="color-selection">
+            <input class="color-picker" id="color-picker" type="color">
+            <select class="color-scheme" id="color-scheme">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button class="btn" id="get-color-btn">Get color scheme</button>
+        </section>
+        
+        <section id="color-palette-container" class="color-palette-container"> </section>
+        
+        <script src="index.js"></script>
+    </body>
+    
+</html>
